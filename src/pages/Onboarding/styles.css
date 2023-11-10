@@ -3,11 +3,26 @@
     color: rgba(255, 255, 255, 0.87);
 }
 
+.gradient--background {
+    width: 577.308px;
+    height: 244.52px;
+    position: absolute;
+    transform: rotate(134.23deg);
+
+    border-radius: 577.308px;
+    opacity: 0.63;
+    background: linear-gradient(271deg, #43116A 36.61%, #0A1832 106.23%);
+    filter: blur(74px);
+
+    top: 50px;
+}
+
 .title {
     display: flex;
     gap: 6px;
     align-items: center;
     margin-top: 1rem;
+    z-index: 1;
 }
 
 .title p {
@@ -32,6 +47,8 @@
     margin-top: 44px;
     margin-bottom: 1rem;
     margin-left: 1rem;
+
+    z-index: 1;
 }
 
 .hero--text span {
@@ -47,6 +64,8 @@
     font-style: normal;
     font-weight: 450;
     line-height: 26px; /* 162.5% */
+
+    z-index: 1;
 }
 
 .social--buttons {

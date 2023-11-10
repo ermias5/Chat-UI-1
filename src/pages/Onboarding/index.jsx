@@ -5,6 +5,7 @@ import Logo from '../../components/logo'
 function Onboarding() {
   return (
     <div className='page background' >
+      <div className="gradient--background"></div>
       <div className="title">
         <Logo width={16} fill='white' style={{height:"fit-content"}}/>
         <p>Chatbox</p>
